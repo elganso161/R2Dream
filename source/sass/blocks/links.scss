@@ -1,0 +1,47 @@
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  margin: 0 auto;
+
+  margin-bottom: 30px;
+}
+
+.links__item {
+  text-decoration: none;
+  width: 256px;
+  height: 48px;
+  background: rgba(8, 24, 40, 0.7);
+
+  text-align: center;
+  padding: 13px 0;
+
+  border: 1px solid #384158;
+
+
+  font-family: 'BeaufortforLOL-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  color: #BBDDF6;
+}
+
+.links__item:hover {
+  background: rgb(8, 24, 40);
+  transition: 0.3s;
+  box-shadow: 0 0 30px rgba(78, 75, 75, 0.5);
+}
+
+
+@media(max-width: 576px) {
+  .links {
+    flex-wrap: wrap;
+    width: 250px;
+
+  }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <link
+      href="//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="js/google-translate.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=TranslateInit"></script>
+    <title>R2Dreams</title>
+  </head>
+  <body>
+    <header id="up" class="header">
+
+      <div class="header__flex">
+        <img src="./img/logo.svg" width="198" height="51" alt="logo" />
+        <div class="language">
+          <img
+            src="./img/lang__ru.png"
+            alt="ru"
+            data-google-lang="ru"
+            class="language__img"
+          />
+          <img
+            src="./img/lang__en.png"
+            alt="en"
+            data-google-lang="en"
+            class="language__img"
+          />
+          <img
+            src="./img/lang__ch.png"
+            alt="ch"
+            data-google-lang="zh-TW"
+            class="language__img"
+          />
+        </div>
+</div>
+
+                    <a class="header__link" target="blank" href="#"
+        >Перейти на сайт <span> &#8594; </span>
+      </a>
+
+    </header>
+    <main>
+      <section class="section__top">
+        <div class="container">
+          <div id="video-bg">
+            <video width="100" height="100" muted loop autoplay>
+              <source src="./img/bg_top.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <h1 class="section__top-title">
+            Запуск нового сервера - <span> 26 Сентября </span>
+          </h1>
+          <p class="section__top-subtitle">
+            долгожданный pvp сервер r2 online на последнем обновленном клиенте
+            игры
+          </p>
+          <div class="cards">
+            <ul>
+              <li>
+                <a class="card__link" target="blank" href="#">
+                  <img src="./img/LK.png" width="260" height="400" alt="user" />
+                  <div class="card-item">Личный кабинет</div>
+                  <div class="card__link-text">
+                    Перейти <span>&#8594;</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="card__link" target="blank" href="#">
+                  <img
+                    src="./img/discorde.png"
+                    width="260"
+                    height="400"
+                    alt="user"
+                  />
+                  <div class="card-item">
+                    <img src="./img/card-dis.svg" alt="discord" />
+                  </div>
+                  <div class="card__link-text">
+                    Подробнее <span>&#8594;</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="card__link" target="blank" href="#">
+                  <img src="./img/TP.png" width="260" height="400" alt="user" />
+                  <div class="card-item">Техническая поддержка</div>
+                  <div class="card__link-text">
+                    Перейти <span>&#8594;</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="links">
+            <a class="links__item" target="blank" href="#">Регистрация</a>
+            <a class="links__item" target="blank" href="#">Обсудить</a>
+          </div>
+          <div class="social">
+            <ul>
+              <li>
+                <a target="blank" href="#">
+                  <img
+                    class="social__img"
+                    src="./img/discord.png"
+                    alt="Дискорд"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img class="social__img" src="./img/vk.png" alt="Вконтакте" />
+                </a>
+              </li>
+              <li>
+                <a target="blank" href="#">
+                  <img class="social__img" src="./img/face.png" alt="Фейсбук" />
+                </a>
+              </li>
+              <li>
+                <a target="blank" href="#">
+                  <img
+                    class="social__img"
+                    src="./img/insta.png"
+                    alt="Инстаграм"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a class="down" href="#down">
+            <div class="details__btn box move">
+              <img src="./img/down.png" alt="Подробнее" />
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="description" id="down">
+          <div class="container">
+          <div>
+            <ul class="description__list">
+              <li class="description__list-item">
+                <button onclick="on1()" class="btn btn-1 btn-active">
+                  Главные особенности
+                </button>
+              </li>
+              <li class="description__list-item">
+                <button onclick="on2()" class="btn btn-2">
+                  Основные механики
+                </button>
+              </li>
+              <li class="description__list-item">
+                <button onclick="on3()" class="btn btn-3">
+                  Подарки игрокам
+                </button>
+              </li>
+              <li class="description__list-item">
+                <div class="plug"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="description__sliders">
+            <div class="description__slide slide1">
+              <p class="description__slider-title">В чём наши преимущества ?</p>
+              <p class="description__slider-text">
+                Это лучшие механики и игровые решения из разных хроник
+                объединенные воедино. Remastered версия регулярно получает
+                обновления, развиваясь альтернативно от других версии игры. Ниже
+                представлены те игровые решения, которые были взяты из
+                определенных хроник.
+              </p>
+              <p class="description__slider-title">
+                Наша команда - наша гордость
+              </p>
+              <p class="description__slider-text">
+                Уважаемые гости и игроки нашего проекта, с радостью хотим
+                сообщить Вам об открытии сервера x1200! L2MAD по настоящему был
+                первым лучшим сервером с дополнениями, надеемся, что у нас
+                получилось сделать сервер x1200 также одним из лучших!
+              </p>
+              <p class="description__slider-title">
+                Основные механики PVP сервера
+              </p>
+              <p class="description__slider-text">
+                Уникальный и совсем не имеющий аналогов сервер с дополнениями.
+                Уникальная система развития, более 20 Видов брони и оружия.
+                Самый крупный сервер с дополнениями в СНГ! Классика жанра,
+                сервер с продуманной PvP концепцией, хорошим балансом в PvP, и
+                очень большим онлайном. Новые евенты и постоянные сражения за
+                топ рейтинги в статистике!
+              </p>
+            </div>
+            <div class="description__slide slide2 slide-none">
+              <p class="description__slider-title">2222222222</p>
+              <p class="description__slider-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione molestias, eos libero voluptas doloribus non ex animi
+                error perferendis omnis mollitia eaque temporibus rerum illum ea
+                labore sint magni porro?
+              </p>
+              <p class="description__slider-title">22222222</p>
+              <p class="description__slider-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
+                optio exercitationem quo nisi, quidem maiores nulla, provident
+                explicabo voluptas iste ipsam illum corporis totam id odit nihil
+                voluptatem, deleniti ratione.
+              </p>
+              <p class="description__slider-title">22222222222</p>
+              <p class="description__slider-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione molestias, eos libero voluptas doloribus non ex animi
+                error perferendis omnis mollitia eaque temporibus rerum illum ea
+                labore sint magni porro?
+              </p>
+            </div>
+            <div class="description__slide slide3 slide-none">
+              <p class="description__slider-title">3333333333333333333</p>
+              <p class="description__slider-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+                porro nobis ut, suscipit accusamus vitae distinctio temporibus
+                nostrum tempore eum magni alias fugit ab. Sunt temporibus vitae
+                expedita alias officiis?
+              </p>
+              <p class="description__slider-title">333333333333333333</p>
+              <p class="description__slider-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, magni! Expedita deserunt, atque laborum ipsum,
+                praesentium sunt ducimus similique eveniet impedit quas commodi
+                aperiam consequatur ut cum beatae in recusandae.
+              </p>
+              <p class="description__slider-title">3333333333</p>
+              <p class="description__slider-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, magni! Expedita deserunt, atque laborum ipsum,
+                praesentium sunt ducimus similique eveniet impedit quas commodi
+                aperiam consequatur ut cum beatae in recusandae.
+              </p>
+            </div>
+          </div>
+          <a class="description__link" target="blank" href="#">Регистрация</a>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a target="blank" href="#">Перейти на сайт</a>
+          </li>
+          <li class="footer__list-item">
+            <a target="blank" href="#">Регистрация</a>
+          </li>
+          <li class="footer__list-item">
+            <a target="blank" href="#">Форум</a>
+          </li>
+          <li class="footer__list-item">
+            <a target="blank" href="#">Discord</a>
+          </li>
+        </ul>
+        <div class="footer__block">
+          <div>
+            <p class="footer__text">
+              © R2Dream 2020 <br />
+              Использование нашего сервиса носит исключительно ознакомительный
+              характер. С оригинальным вариантом игры R2 Online Вы можете
+              ознакомиться на официальных серверах NCsoft и его представителях.
+            </p>
+          </div>
+          <a class="up" href="#up">
+            <div class="details__btn box move">
+              <img src="./img/up.png" alt="Подробнее" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+</div>
+    <script src="./js/slider.js"></script>
+    <script src="./js/anchors.js"></script>
+  </body>
+</html>

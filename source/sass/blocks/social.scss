@@ -1,0 +1,14 @@
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 280px;
+  margin: 0 auto;
+  padding: 0;
+
+  margin-bottom: 48px;
+}
+
+.social__img:hover {
+  filter: opacity(70%)
+}

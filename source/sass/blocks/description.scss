@@ -1,0 +1,180 @@
+.description {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 1200px) {
+  .description {
+    width: 1200px;
+  }
+}
+
+.description::after {
+  position: absolute;
+  content: "";
+  background: url(../img/bg2.jpg) center no-repeat;
+  background-size: 1540px auto;
+  top: -245px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 1156px;
+}
+
+.description__slide {
+  width: 1024px;
+  height: auto;
+  min-height: 562px;
+  background: rgba(4, 10, 16, 0.5);
+  border-left: 1px solid #0f2e4d;
+  border-right: 1px solid #0f2e4d;
+  border-bottom: 1px solid #0f2e4d;
+  padding-left: 65px;
+  padding-top: 25px;
+}
+
+.slide-none {
+  display: none;
+}
+
+.description__slider-title {
+  font-size: 30px;
+  color: #fec000;
+  margin-top: 0;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.description__slider-text {
+  font-size: 18px;
+  color: #fff;
+  width: 870px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.description__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.description__list-item {
+  list-style: none;
+}
+
+.btn {
+  width: 249px;
+  height: 64px;
+
+  color: #fff;
+
+  background: #07111c;
+  border: 1px solid #0f2e4d;
+
+  font-family: "BeaufortforLOL-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+  outline: none;
+}
+
+.btn-active {
+  border-bottom: none;
+  color: #fec000;
+  background: rgba(4, 10, 16, 0.5);
+}
+
+.plug {
+  width: 277px;
+  height: 64px;
+  background: rgba(4, 10, 16, 0);
+  border-bottom: 1px solid #0f2e4d;
+}
+
+.description__sliders {
+  margin-bottom: 50px;
+}
+
+.description__link {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 256px;
+  height: 48px;
+  background: rgba(8, 24, 40, 0.5);
+
+  text-align: center;
+  padding: 13px 0;
+
+  border: 1px solid #384158;
+
+  font-family: "BeaufortforLOL-Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  color: #bbddf6;
+}
+
+.description__link:hover {
+  background: rgb(8, 24, 40);
+  transition: 0.3s;
+  box-shadow: 0 0 30px rgba(78, 75, 75, 0.5);
+}
+
+
+@media(max-width: 576px) {
+  .description__slide {
+    width: 360px;
+    padding: 15px;
+  }
+
+  .description {
+    width: auto;
+  }
+
+  // .description::after {
+  //   background-size: 100% auto;
+  //   width: 100%;
+  // }
+
+  .description__slider-title {
+    font-size: 20px;
+    width: 350px;
+  }
+
+  .description__slider-text {
+    font-size: 14px;
+    width: 330px;
+  }
+
+  .description__sliders {
+    width: 360px;
+  }
+
+  .btn {
+    width: 120px;
+  }
+
+  .plug {
+    width: 0;
+  }
+
+}
